@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+    background-color: #1B8676;
+}
+
+header h1 {
+    position: absolute;
+    color: yellow;
+    text-transform: uppercase;
+    left: 550px;
+    top: 8px;
+}
+
+header .formlogin {
+    position: relative;
+    left: 1070px;
+    color: yellow;
+    top: 10px;
+}
+
+header .formlogin a{
+    text-decoration: none;
+}
+header .formlogin a:hover{
+    text-decoration: none;
+    color: #19FA50;
+}
+
+nav .find{
+    position: absolute;
+    top: 55px;
+    left: 970px;
+}
+nav .find >input{
+    height: 30px;
+    width: 170px;
+    border-radius: 3px;
+}
+nav .find >button{
+    height: 29px;
+    width: 60px;
+    color: azure;
+    background-color: #1B8676;
+    border-radius: 3px;
+}
+nav .menu >ul >li{
+    display: inline-block;
+}
+nav .menu >ul >li a{
+    display: inline-block;
+}
+nav .menu >ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #97E30B;
+    text-align: left;
+}
+nav .menu >ul >li >a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: larger;
+    color: white;
+    padding: 0px 70px;
+    line-height: 40px;
+}
+nav .menu >ul >li a:hover{
+    color: yellow;
+}
+nav .menu >ul >li{
+    position: relative;
+}
+nav .menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    width: 239px;
+    background-color: white;
+}
+nav .menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: #19FA50;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 0 10px;
+}
+nav .menu >ul >li:hover >ul{
+    display: block;
+}
+nav .menu ul ul a:hover{
+    background-color: green;
+    color: white;
+}
+article{
+    background-color: rgb(233, 227, 220);
+    height: 650px;
+}
+
+.main {
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    transition: 0.5s;
+    border: 3px solid lavenderblush;
+    border-radius: 10px;
+    top: 100px;
+}
+
+.chitiet{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    font-size: 20px;
+}
+
+.click{
+    position: absolute;
+    bottom: -160px;
+    right: 365px;
+    margin: 5px;
+}
+
+.art{
+    position: absolute;
+    bottom: -300px;
+    left: 125px;
+}
+.art button{
+    font-size: 25px;
+    position: relative;
+    bottom: 200px;
+    margin: 10px;
+    width: 105px;
+    height: 35px;
+    background-color:  #08423F;
+    color: white;
+    border-radius: 3px;
+}
+footer{
+    background-color: #08423F;
+    clear: both;
+    width: 100%;
+    height: 60px;
+}
+footer .iconfb >img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: -235px;
+}
+footer .iconfb >a{
+    text-decoration: none;
+    position: absolute;
+    left: 40px;
+    bottom: -235px;
+    color: #19FA50;
+}
+footer .iconins >img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: -235px;
+    right: 630px;
+}
+footer .iconins >a{
+    text-decoration: none;
+    position: absolute;
+    bottom: -235px;
+    right: 560px;
+    color: #19FA50;
+}
+footer .info{
+    position: absolute;
+    bottom: -235px;
+    color: #19FA50;
+    right: 10px;
+}
+
+
+
+
+
+
+

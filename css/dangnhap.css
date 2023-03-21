@@ -1,0 +1,59 @@
+.dangnhap {
+    text-align: center;
+    color: black;
+    border: 3px ridge greenyellow;
+    width: 350px;
+    height: auto;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+  }
+  
+  .dangnhap .tron {
+    background-color: #eeeeee;
+    color: #eeeeee;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 0 15px;
+    padding: 15px;
+  }
+  
+  .dangnhap .social .facebook {
+    background-color: #455ca8;
+  }
+  
+  .dangnhap .social .google {
+    background-color: red;
+  }
+  
+  .dangnhap > input {
+    width: auto;
+    height: 40px;
+    text-align: left;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+  }
+  
+  .dangnhap > input:hover {
+    background-color: rgb(204, 199, 199);
+  }
+  .dangnhap .button {
+    background-color: green;
+    color: white;
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .dangnhap .button:hover {
+    background-color: yellow;
+    color: blue;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
